@@ -21,7 +21,7 @@ const WorkExperienceItem = ({ name, position,
           />
         )}
         <div className="w-48">
-          <h3>{name}</h3>
+          <h4>{name}</h4>
           <div className="flex flex-col">
             <span className="m-0">{position}</span>
             <span>{`${period[0]} - ${period[1]}`}</span>

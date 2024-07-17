@@ -7,21 +7,21 @@ import type { AppProps } from "next/app";
  * @description SEO를 위해 본인의 정보로 수정해주세요.
  */
 const DEFAULT_SEO = {
-  title: "권민지 | Back-End Dev",
-  description: "안녕하세요, 백엔드 개발자 권민지입니다.",
+  title: "권민지 | Supply Chain Management",
+  description: "안녕하세요, SCM 담당자 권민지입니다.",
   canonical: "https://www.naver.com/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://www.naver.com/",
-    title: "권민지 | Back-End Dev",
-    site_name: "권민지 | Back-End Dev",
+    title: "권민지 | Supply Chain Management",
+    site_name: "권민지 | Supply Chain Management",
     images: [
       {
         url: "/share.png",
         width: 285,
         height: 167,
-        alt: "권민지 | Back-End Dev",
+        alt: "권민지 | Supply Chain Management",
       },
     ],
   },
@@ -34,11 +34,11 @@ const DEFAULT_SEO = {
   additionalMetaTags: [
     {
       name: "application-name",
-      content: "권민지 | Back-End Dev",
+      content: "권민지 | Supply Chain Management",
     },
     {
       name: "msapplication-tooltip",
-      content: "권민지 | Back-End Dev",
+      content: "권민지 | Supply Chain Management",
     },
     {
       name: "viewport",

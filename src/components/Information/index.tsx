@@ -18,7 +18,7 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
           <div className="grid grid-rows-auto gap-2">
             <h1 className="leading-[1.15]">
               안녕하세요,<br/> 
-              백엔드 개발자{" "}<span className="text-PRIMARY font-semibold">{information.name}</span>입니다.
+              SCM 담당자{" "}<span className="text-PRIMARY font-semibold">{information.name}</span>입니다.
             </h1>
             <div className="flex gap-1">
               {information.contact.map((contact) => (
