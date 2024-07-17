@@ -7,21 +7,21 @@ import type { AppProps } from "next/app";
  * @description SEO를 위해 본인의 정보로 수정해주세요.
  */
 const DEFAULT_SEO = {
-  title: "권오민 | Back-End Dev",
-  description: "안녕하세요, 백엔드 개발자 권오민입니다.",
+  title: "권민지 | Back-End Dev",
+  description: "안녕하세요, 백엔드 개발자 권민지입니다.",
   canonical: "https://www.naver.com/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
     url: "https://www.naver.com/",
-    title: "권오민 | Back-End Dev",
-    site_name: "권오민 | Back-End Dev",
+    title: "권민지 | Back-End Dev",
+    site_name: "권민지 | Back-End Dev",
     images: [
       {
         url: "/share.png",
         width: 285,
         height: 167,
-        alt: "권오민 | Back-End Dev",
+        alt: "권민지 | Back-End Dev",
       },
     ],
   },
@@ -34,11 +34,11 @@ const DEFAULT_SEO = {
   additionalMetaTags: [
     {
       name: "application-name",
-      content: "권오민 | Back-End Dev",
+      content: "권민지 | Back-End Dev",
     },
     {
       name: "msapplication-tooltip",
-      content: "권오민 | Back-End Dev",
+      content: "권민지 | Back-End Dev",
     },
     {
       name: "viewport",

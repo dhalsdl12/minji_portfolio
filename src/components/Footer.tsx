@@ -17,9 +17,9 @@ const Footer = ({
         ))}
       </div>
       <div className="flex flex-col items-center">
-        <span className="whitespace-pre-wrap text-center">{`Copyright 2023. ${name} All rights reserved.`}</span>
-        <a target="_blank" rel="noreferrer" href="https://github.com/sjoleee/very-simple-portfolio">
-          Powered by very-simple-portfolio
+        <span className="whitespace-pre-wrap text-center">{`Copyright 2024. ${name} All rights reserved.`}</span>
+        <a target="_blank" rel="noreferrer" href="https://github.com/dhalsdl12/mini-portfolio">
+          Powered by minji-portfolio
         </a>
       </div>
     </footer>

@@ -41,7 +41,6 @@ const AwardItem = ({  id, name, date, organizer,
         </div>
         <span className="whitespace-pre-wrap">
           {`${description[0]}\n\n`}
-          <a href={description[1]}>VIEW AWARD</a>
         </span>
         </div>
         {/*{`${description[0]}${description[1] ? "\n" + description[1] : ""}`}*/}

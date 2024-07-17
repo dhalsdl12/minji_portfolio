@@ -9,7 +9,6 @@ import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Information from "@/components/Information";
 import Layout from "@/components/Layout";
-import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
 // import ScrollProgress from "@/components/ScrollProgress";
 import WorkExperience from "@/components/WorkExperience";
@@ -37,7 +36,6 @@ const Home: NextPage<DataProps> = ({
         <Information information={information} />
         <Education education={education} />
         <WorkExperience workExperience={workExperience} />
-        <Project project={project} />
         <Activity activity={activity} />
         <Club club={club} />
         <Award award={award} />
@@ -69,16 +67,11 @@ export const getStaticProps = async () => {
     },
   );
 
-  const projectWithData = objectData.project.map(async (item: ProjectProps) => {
-    return getImgSrc({ section: "project", item: await getMd({ section: "project", item }) });
-  });
-
   return {
     props: {
       ...objectData,
       information: await informationWithData,
       workExperience: await Promise.all(workExperienceWithData),
-      project: await Promise.all(projectWithData),
     },
   };
 };
