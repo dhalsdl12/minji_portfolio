@@ -1,13 +1,3 @@
-- SCM 담당자 권민지 입니다.
-- 항상 새로운 도전을 마다하지 않고 도전하면서 성장을 느끼고 있습니다.
-- 스스로를 발전시키고 끊임없이 성장하기 위해 노력하는 인재가 되겠습니다.
-
-💻Tech Stack💻  
-💡Language  
-`Python`, `C`, `Java`, `Java Script`   
-💡Framework  
-`Django`,`Django REST Framework`,`Spring`, `BX Frramework`, `xFrame`   
-💡DB  
-`MySQL`, `Oracle`   
-💡Cowork Tools  
-`GitHub`, `GitLab`, `Bitbucket`, `Slack`, `Notion`, `Confluence`, `Jira`, `Figma`
+- 다양한 경험과 꼼꼼한 성격을 바탕으로 정확한 일처리를 해내도록 하겠습니다.
+- 업무 유관 부서와 원활한 소통을 통해 문제점을 해결해나가고 있습니다.
+- 스스로를 끊임없이 발전시키고 성장하기 위해 노력하는 인재가 되겠습니다.
